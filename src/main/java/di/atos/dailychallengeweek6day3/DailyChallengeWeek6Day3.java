@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author ezekielkouassi
+ * @author Adoni 
  */
 public class DailyChallengeWeek6Day3 {
 
@@ -18,13 +18,13 @@ public class DailyChallengeWeek6Day3 {
         System.out.println("entrer un nombre : ");
         int userEntry = sc.nextInt();
         
-        System.out.println("======= multiplication table =======");
+        System.out.println(" multiplication table ");
         
         for(int i = 0; i <= 10; i++) {
             System.out.println(userEntry + "x" + i + "=" + userEntry*i);
         }
         
-        System.out.println("====== factorial number =======");
+        System.out.println(" factorial number ");
         
         int factorial = userEntry;
         int i = 1;
@@ -39,7 +39,7 @@ public class DailyChallengeWeek6Day3 {
         
         System.out.println(userEntry +"! = " + factorial);
         
-        System.out.println("====== fibonacci =======");
+        System.out.println(" fibonacci ");
         
         i = 1;
         int fib = 0;
